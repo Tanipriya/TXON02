@@ -10,7 +10,7 @@
 }
 
 .input-text{
-padding: 25.2px;
+padding: 29.6px;
 background: #222;
 border: 0px;
 text-align: right;
@@ -29,11 +29,12 @@ color: white;
     background: #222;
     height: 30px;
     width: 33px;
-    color:  white;
-    padding: 27px;
+    color:  #fff;
+    padding: 28px;
     align-content: center;
     justify-content: space-evenly;
-    box-shadow: 5px;
+
+    box-shadow: -8px -8px 15px rgba(225, 225, 225, 0.1),  5px 5px 15px rgba(0, 0, 0, 0.2);
     
     font-size: 20px;
    

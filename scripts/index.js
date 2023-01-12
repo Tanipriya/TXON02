@@ -6,8 +6,14 @@ let string= "";
 Array.from(buttonEl).forEach((button) => {
     button.addEventListener('click', (e) =>{
         if (e.target.innerHTML == "=")  {
+            try{
                 string= eval(string)
                 displayEl.value= string
+            }  
+            catch{
+                displayEl.value= "Error!"
+            }
+            
         }   
         else if(e.target.innerHTML == "AC")  {
 
